@@ -1,0 +1,20 @@
+{
+  "resources": {
+    "suites": 18,
+    "staff": {
+      "Hotesse": 2,
+      "Infirmier": 4,
+      "Radiologue": 2,
+      "Cardiologue": 2,
+      "Generaliste": 3
+    }
+  },
+  "workflow": [
+    {"role": "Hotesse", "dur": 15},
+    {"role": "Infirmier", "dur": 60},
+    {"role": "Radiologue", "dur": 30},
+    {"role": "Cardiologue", "dur": 15},
+    {"role": "Generaliste", "dur": 30}
+  ],
+  "patients_count": 20
+}
